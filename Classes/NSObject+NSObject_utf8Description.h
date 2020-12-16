@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  把字典转成UTF8格式 主要用户DEBUG
  */
-- (NSString *)utf8Description;
++ (NSString *)utf8Description;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -11,7 +11,7 @@
 /**
  把字典转成UTF8格式 主要用户DEBUG
  */
-- (NSString *)utf8Description{
++ (NSString *)utf8Description{
     if(self){
         if ([self isKindOfClass:[NSDictionary class]] || [self isKindOfClass:[NSArray class]]){
             NSData *jsonData=[NSJSONSerialization dataWithJSONObject:self options:NSJSONWritingPrettyPrinted error:nil];
